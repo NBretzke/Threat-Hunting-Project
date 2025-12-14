@@ -111,6 +111,9 @@ DeviceNetworkEvents
 | order by FailedAttempts desc
 ```
 
+![NumberOfSuccessfulAndUnsuccessfulConnections](NumberOfSuccessfulAndUnsuccessfulConnections.png)
+
+
 ### Identify Targeted Ports
 
 ```kql
@@ -120,6 +123,9 @@ DeviceNetworkEvents
 | where RemoteIP == "10.0.0.5"
 | project ActionType, RemotePort
 ```
+![PortsWithNumbers](PortsWithNumbers.png)
+
+*Figure 2: Distribution of TCP destination ports targeted during the internal scan.*
 
 ### Identify Script Download
 
@@ -128,6 +134,8 @@ DeviceFileEvents
 | where FileName == "portscan.ps1"
 | order by Timestamp desc
 ```
+
+![OriginOfFileForScan](OriginofFileForScan.png)
 
 ### Identify Script Execution
 

@@ -143,3 +143,9 @@ DeviceProcessEvents
 ## Disclaimer
 
 This investigation was conducted in a controlled lab environment for educational and portfolio purposes. No production systems were affected.
+
+## What I Learned
+- How to correlate network, file, and process telemetry in Microsoft Defender
+- How internal reconnaissance can present as performance degradation
+- How to structure a threat hunt narrative using MITRE ATT&CK
+

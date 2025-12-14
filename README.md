@@ -135,7 +135,7 @@ DeviceFileEvents
 | order by Timestamp desc
 ```
 
-![OriginOfFileForScan](OriginofFileForScan.png)
+![OriginOfFileForScan](OriginOfFileForScan.png)
 
 ### Identify Script Execution
 

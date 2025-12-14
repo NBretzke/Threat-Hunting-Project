@@ -111,7 +111,7 @@ DeviceNetworkEvents
 | order by FailedAttempts desc
 ```
 
-![NumberOfSuccessfulAndUnsuccessfulConnections](NumberOfSuccessfulAndUnsuccessfulConnections.png)
+![NumberOfSuccessfulAndUnsuccessfulConnections](NumberOfSuccessfulAndUnsuccesfulConnections.png)
 
 
 ### Identify Targeted Ports
